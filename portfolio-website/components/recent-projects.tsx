@@ -27,7 +27,7 @@ const RecentProjects = () => {
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <img 
-                    src="./public/bg.png" 
+                    src="/bg.png" 
                     alt="bgimg" 
                     
                   />
