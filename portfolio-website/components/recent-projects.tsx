@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
-
+ 
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
@@ -26,7 +26,11 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img 
+                    src="./public/bg.png" 
+                    alt="bgimg" 
+                    
+                  />
                 </div>
                 <img
                   src={item.img}

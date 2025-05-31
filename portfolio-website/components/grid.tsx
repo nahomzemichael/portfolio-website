@@ -17,6 +17,7 @@ const Grid = () => {
             imgClassName= {imgClassName}
             titleClassName= {titleClassName}
             spareImg={spareImg}
+            
           />
         ))}
       </BentoGrid>

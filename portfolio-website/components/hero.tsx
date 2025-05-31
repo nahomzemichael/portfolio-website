@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import MagicButton from './ui/magic-button'
 import { FaLocationArrow } from 'react-icons/fa'
-import {navItems} from "@/data/index"
+
 
 const Hero = () => {
  
